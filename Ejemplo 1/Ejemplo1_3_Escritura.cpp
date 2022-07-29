@@ -6,11 +6,11 @@ using namespace std;
 int main()
 {
     int retVal;
-    FILE *fp;
-    char buffer[] = "Ejemplo 1, Escritura de Archivos con fwrite.\n";
+    FILE *file;
+    char cont[] = "Ejemplo 1, Escritura de Archivos con fwrite.\n";
 
-    fp = fopen("ejemplo1_3.txt","w");
-    retVal = fwrite(buffer,sizeof(buffer),1,fp);
+    file = fopen("ejemplo1_3.txt","w");
+    retVal = fwrite(cont,sizeof(cont),1,file);
     
     cout << "fwrite returned " << retVal;
     return 0;

@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-    FILE *fp;
-    char buffer[100];
+    FILE *file;
+    char cont[100];
     
-    fp = fopen("ejemplo1_2.txt","r");
-    while(!feof(fp))
+    file = fopen("ejemplo1_2.txt","r");
+    while(!feof(file))
     {
-        fread(buffer,sizeof(buffer),1,fp);
-        cout << buffer;
+        fread(&cont,sizeof(cont),1,file);
+        cout << cont;
     }
     
     return 0;
