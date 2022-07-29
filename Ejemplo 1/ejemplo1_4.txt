@@ -1,0 +1,1 @@
+Ejemplo  1, Lectura de Archivo y demostracion de fseek en cada uno de sus modos de operacion.
