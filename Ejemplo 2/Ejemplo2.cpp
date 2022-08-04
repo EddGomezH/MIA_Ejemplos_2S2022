@@ -80,7 +80,7 @@ int main()
     while (eleccion != 5)
     {
         cout << "-----------------------------------------" << endl;
-        cout << "  Manejo e Implementacion de Archivos A+ " << endl;
+        cout << "  Manejo e Implementacion de Archivos A  " << endl;
         cout << "      Ejemplo Practico Laboratorio 3     " << endl;
         cout << "-----------------------------------------" << endl;
         cout << "      Selecciona una opcion:             " << endl;
