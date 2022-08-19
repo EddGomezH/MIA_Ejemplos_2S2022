@@ -1,0 +1,3 @@
+flex --header-file=scanner.h -o scanner.cpp ALexico.l 
+
+bison -o parser.cpp --defines=parser.h  ASintactico.y 
