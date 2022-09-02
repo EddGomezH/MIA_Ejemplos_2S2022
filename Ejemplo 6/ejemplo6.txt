@@ -1,0 +1,14 @@
+crear -tamano->5 -dimensional->"M"
+escribir -id->1 -nombre->analizador -telefono->123 -direccion->bison -x->10
+vertodo
+verx -x->5
+graficartodo
+graficarx -x->10
+
+
+
+
+sudo apt install graphviz
+sudo apt install fim
+https://dreampuf.github.io/GraphvizOnline/
+https://graphviz.org/documentation/
