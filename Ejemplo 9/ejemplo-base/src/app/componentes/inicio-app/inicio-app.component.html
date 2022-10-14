@@ -1,0 +1,17 @@
+<div class="container-fluid" style="margin-top: 3%; width: 80%;">
+    <form>
+        <div class="form-group" style="margin-bottom: 2%;">
+            <input #fileUpload [hidden]="true" type="file" class="file-input" (change)="onFileSelected($event)">
+            <button class="btn btn-primary" (click)="fileUpload.click()" style="margin-right: 5px;">Cargar Archivo</button> 
+            <button class="btn btn-success" (click)="ejecutar()">Ejecutar</button>
+        </div>
+        <div class="form-group">
+          <label for="entradatxtarea">Entrada</label>
+          <textarea class="form-control" id="entradatxtarea" rows="15" [(ngModel)]="entrada" name="entrada"></textarea>
+        </div>
+        <div class="form-group" style="margin-top: 3%;">
+            <label for="salidatxtarea">Salida</label>
+            <textarea class="form-control" id="salidatxtarea" rows="10" [(ngModel)]="salida"  name="salida"></textarea>
+          </div>
+      </form>
+</div>
