@@ -13,4 +13,8 @@ export class EjemploService {
   getNombreRandom(){
     return this.httpClient.get("https://randomuser.me/api/");
   }
+
+  postEntrada(entrada: string){
+    return this.httpClient.post("http://localhost:5000/analizar",{ Cmd: entrada});
+  }
 }
