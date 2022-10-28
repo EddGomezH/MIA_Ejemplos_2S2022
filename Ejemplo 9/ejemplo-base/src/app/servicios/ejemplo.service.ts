@@ -17,4 +17,8 @@ export class EjemploService {
   postEntrada(entrada: string){
     return this.httpClient.post("http://localhost:5000/analizar",{ Cmd: entrada});
   }
+
+  getReporte(){
+    return this.httpClient.get("http://localhost:5000/reportes");
+  }
 }
